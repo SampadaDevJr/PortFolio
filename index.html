@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sampada Bhosale | 3D Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <main class="perspective-container">
+        
+        <header class="tilt-card glass-panel" data-tilt>
+            <div class="inner-3d">
+                <h1 class="glitch-text" data-text="Sampada Bhosale">Sampada Bhosale</h1>
+                <p class="subtitle">.NET Full Stack Developer</p>
+                <div class="contact-info">
+                    <span>sampadabhosale77@gmail.com</span> | 
+                    <span>+91 9619112094</span> | 
+                    <span>Mumbai, India</span>
+                </div>
+            </div>
+        </header>
+
+        <section class="section about tilt-card glass-panel" data-tilt>
+            <div class="inner-3d">
+                <h2>Professional Summary</h2>
+                <div class="glow-line"></div>
+                <p>
+                    Passionate and solution-oriented <strong>.NET Full Stack Developer</strong> with 2.5+ years of hands-on experience in designing, developing, and maintaining scalable web applications. Strong technical skills in C#, ASP.NET, .NET Core, SQL, Azure, and Azure SQL Database with ongoing learning in Angular and a passion for solving complex problems.
+                </p>
+            </div>
+        </section>
+
+        <section class="section experience tilt-card glass-panel" data-tilt>
+            <div class="inner-3d">
+                <h2>Experience</h2>
+                <div class="glow-line"></div>
+                
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Software Engineer</h3>
+                        <span class="company">MoneyHoney Financial Pvt. Ltd. | Jan 2024 - Present</span>
+                    </div>
+                    <ul class="job-desc">
+                        <li>Developed and maintained end-to-end full-stack applications using .NET Core, C#, SQL Server.</li>
+                        <li>Implemented and managed Database Management System (DMS) and Daily Transaction Report (DTR) modules.</li>
+                        <li>Implemented UPI payment integration within the NCD module to enable secure digital transactions.</li>
+                        <li>Managed and maintained Azure SQL Server / Databases, query optimization, and troubleshooting.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section double-column">
+            
+            <div class="column tilt-card glass-panel" data-tilt>
+                <div class="inner-3d relative-container">
+                    <h2>Academic Projects</h2>
+                    <div class="glow-line"></div>
+                    <div class="project">
+                        <h4>Telecom Tower API</h4>
+                        <p>Led a team of 5 to build a structured API using ASP.NET Web API (C#), SQL, and Entity Framework.</p>
+                    </div>
+                    <div class="project">
+                        <h4>Java Payroll System</h4>
+                        <p>Developed interactive payroll modules using Java with full CRUD operations.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="column tilt-card glass-panel" data-tilt>
+                <div class="inner-3d relative-container">
+                    <h2>Expertise & Education</h2>
+                    <div class="glow-line"></div>
+                    
+                    <div class="skills-grid">
+                        <span class="skill-tag">.NET Core / C#</span>
+                        <span class="skill-tag">SQL Server</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">Angular</span>
+                        <span class="skill-tag">HTML / CSS / JS</span>
+                    </div>
+                    
+                    <div class="education">
+                        <h4>M.Sc. Computer Science (2024)</h4>
+                        <p style="margin-bottom: 10px;">University of Aurangabad</p>
+                        
+                        <h4>B.C.S (2022)</h4>
+                        <p>Babasaheb Ambedkar University, Aurangabad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p style="color: rgba(255,255,255,0.4);">Designed with realistic 3D effects | Sampada Bhosale &copy; <span id="year"></span></p>
+        </footer>
+
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
